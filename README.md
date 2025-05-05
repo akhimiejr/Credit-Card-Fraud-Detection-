@@ -237,6 +237,57 @@ The insights gained from this study can be valuable for financial institutions a
 organizations in developing robust fraud prevention strategies, optimizing resource allocation, 
 and enhancing customer education and support.
 
+# Appendix 1 – Coding SAS Code  
+## Data Pre-processing 
+
+![Screenshot_5-5-2025_163616_](https://github.com/user-attachments/assets/1466a0af-90ff-4795-9137-0ca2e93ec743)
+
+![Screenshot_5-5-2025_163927_](https://github.com/user-attachments/assets/8e0a44d7-25b8-4584-93a6-48108fdeb2a4)
+
+![Screenshot_5-5-2025_16434_](https://github.com/user-attachments/assets/db41762b-671f-45f2-ae66-525fafe7c6e4)
+
+# Appendix 2 Tableau Visualisation  
+## Data Pre-Processing 
+
+![image](https://github.com/user-attachments/assets/ae37e505-6583-4920-8847-e55e48e91f3e)
+
+## Data Mining 
+
+![image](https://github.com/user-attachments/assets/b403904d-efe7-48ec-bddd-70909f69c084)
+
+![image](https://github.com/user-attachments/assets/aa4038fb-a537-48af-908d-4c76f8affc1b)
+
+![image](https://github.com/user-attachments/assets/2601f86f-6233-4d15-ae20-6c571cbf63fc)
+
+![image](https://github.com/user-attachments/assets/2fc10018-c94e-4c07-b5cb-e6fc666e1e4f)
+
+![image](https://github.com/user-attachments/assets/f016300f-3c46-4964-b808-80e025bd402c)
+
+![image](https://github.com/user-attachments/assets/7d0ca8dc-bc31-4819-b219-c3bd0690ebf5)
+
+![image](https://github.com/user-attachments/assets/b29b01d5-6dd8-4ffc-96cb-2b8fbbfea3b4)
+
+![image](https://github.com/user-attachments/assets/2e77a2a3-3748-4315-b1ab-a2a6cdd8ae82)
+
+![image](https://github.com/user-attachments/assets/dfc19c09-26f2-4431-8865-be8a255855c3)
+
+![image](https://github.com/user-attachments/assets/f5df298c-174a-41fd-86f0-60c7a34431a6)
+
+![image](https://github.com/user-attachments/assets/1870f3d4-41e2-4fd2-abb4-e50712dec85c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
