@@ -177,7 +177,65 @@ fraudulent activities.
 
 ![image](https://github.com/user-attachments/assets/fdb17660-3db8-4515-a15c-182f537883af)
 
+Fig 3.12 shows the hours in which customers carried out transactions by both male and female. 
+There is an even spread of the data, with peak periods starting at mid-day and least transactions 
+happening at midnight. When fig 3.12 is compared to fig 3.11, it is clear how fraudulent 
+transactions can be profiled and as such detected using the hour of the day as a feature in a 
+model that will predict fraudulent transactions. 
+## 3.2.3 Correlation Analysis 
+To effectively predict fraud, a correlation analysis was carried out using the amount spent by a 
+customer and the likelihood of fraud to be committed. To achieve this, the amount being spent 
+by customers were broken down into bins of eight. Each been representing a fraction of the total 
+amount spent. The range of the bins are $20, $40, $100, $200, $500, $1,000, and above $1,000. 
+The table shows that as the amount of money spent increases so does the likelihood of the 
+transaction to be fraudulent. 
+Fig 3.13 Table showing increase in amount spent and the likelihood
 
+![image](https://github.com/user-attachments/assets/ca3cb97d-013c-435a-8b78-b8cfc97e0ab8)
+
+![image](https://github.com/user-attachments/assets/6e381b9f-e94a-4dc7-9e1f-e73660fabe38)
+
+Our earlier analysis showed that the average amount spent on any transaction by a customer, 
+either female or male was $71, however when you look at fig 3.14, which is a characteristic of 
+fraudulent transactions, the observation is that fraudulent transactions tend to be three times 
+or higher the average spend of a customer. This makes sense as scammers would want to cash 
+in big in order to get away with as much more as they can.  
+## 3.2.3 Customer Age Analysis 
+At the beginning of our analysis, we did a distribution of age within the customer base using the 
+credit card. This showed that older customers tend to get defrauded. The below table is a 
+comprehensive analysis of age of customers and the likelihood of getting defrauded. Just like 
+we did with the correlation analysis, we will group the customer base into age range. Teenagers, 
+customers below the age of 20 years old, Young Adults, customers between the age of 20 – 35 
+years old, middle age between 35 and 60 years old, and then lastly Elderly, customers older 
+than 60 years. This grouping will also be further grouped into gender, so we can have a clear 
+view of how the age structure is between genders as well. The below figure shows in clear 
+details this analysis.
+
+![image](https://github.com/user-attachments/assets/e30d4ad9-15a5-4344-85aa-b85f5c7ef0f1)
+
+![image](https://github.com/user-attachments/assets/9cc231be-9766-4d44-b350-a05b4261621a)
+
+Imploring a bar graph to assist in buttressing the insight of our analysis, we can see that middled 
+aged male customer are the most defrauded within our customer base followed by elderly 
+women and young women. Teenage male customers also tend to fall victim as well.
+
+# Conclusion 
+This study aimed to analyse a credit card fraud dataset to gain insights into patterns and 
+characteristics that can aid in the detection and prevention of fraudulent activities. Through 
+exploratory data analysis using SAS and Tableau, several key findings were uncovered. 
+The analysis revealed that certain factors, such as transaction amount, customer age, gender, 
+and time of day, can be indicators of potential fraud. Fraudulent transactions were found to be 
+more prevalent among older customers, suggesting a need for targeted education and 
+awareness campaigns. Additionally, fraudulent activities were more likely to occur during late
+night and early-morning hours, providing a temporal pattern that can be leveraged for fraud 
+detection models. 
+The critical comparison between SAS and Tableau highlighted the strengths and weaknesses of 
+each tool concerning different aspects of fraud analytics. While SAS excelled in data 
+manipulation, statistical analysis, and model building, Tableau demonstrated its prowess in 
+interactive data visualization and user-friendly exploration. 
+The insights gained from this study can be valuable for financial institutions and other 
+organizations in developing robust fraud prevention strategies, optimizing resource allocation, 
+and enhancing customer education and support.
 
 
 
