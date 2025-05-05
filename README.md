@@ -55,18 +55,70 @@ prediction of fraud in this section.
 # 3.1 Data Pre-Processing 
 Before proceeding with the analysis, several data pre-processing steps were performed to 
 ensure the quality and consistency of the data. 
-# 3.1.1 Data Cleaning 
+## 3.1.1 Data Cleaning 
 The dataset was thoroughly examined for missing values, duplicates, and outliers. Missing 
 values were imputed using appropriate techniques and removed when they constituted a 
 significant portion of the data. Duplicate transactions were identified and removed to avoid 
 redundancy and skewed results. 
-# 3.1.2 Data Transformation 
+## 3.1.2 Data Transformation 
 Categorical variables were encoded using techniques such as one-hot encoding or label 
 encoding to make them suitable for analysis. The encoded numerical variable is_fraud was 
 replaced by a new binary variable that is for the unique integer value. 
-# 3.1.3 Data Subsetting 
+## 3.1.3 Data Subsetting 
 The data set is about 1.8 million observations and this quite large and will cause performance 
 issues when running the analysis. To resolve this issue, a subset of the data was taken. This was 
 done by looking at the top ten highest transaction by state and the top ten highest fraudulent 
 transaction. New York was the state with the highest fraudulent transaction and had the second 
 highest transaction. Our focus moving forward will be focused on the state of New York.
+
+![image](https://github.com/user-attachments/assets/ce4ea6c1-9b39-4665-9b07-29f1d3213e21)
+
+![image](https://github.com/user-attachments/assets/1350a85f-f675-4fc2-aca7-21f989049678)
+
+# 3.2 Exploratory Data Analysis 
+To gain insights into the characteristics of the credit card fraud dataset and identify potential 
+patterns and relationships an exploratory data analysis (EDA) techniques were employed.  
+As shown in the previous fig  
+• Non-Fraudulent Transactions: Texas (TX) has the highest number of non-fraudulent 
+transactions (134,677) and total transaction amount ($9,239,298), followed by New York 
+(NY) and California (CA). 
+• Fraudulent Transactions: New York (NY) leads in fraudulent transactions both in count 
+(730) and total amount ($395,295), followed by Texas (TX) and Pennsylvania (PA). 
+## 3.2.1 Distribution Analysis 
+EDA was carried out to gain a broad understanding of the dataset's features and attributes and 
+uncover potential relationships between variables. Summary statistics, such as mean, median, 
+and standard deviation, were calculated for numerical variables, while frequency distributions 
+were examined for categorical variables. 
+
+![image](https://github.com/user-attachments/assets/e3d05276-8fd4-4336-ad54-f196aa539ffc)
+
+Fig 3.3 Summary Statistics of Gender with regards to transaction population and age. 
+
+![image](https://github.com/user-attachments/assets/3a51f3bd-5d2a-4211-bee5-b6c2483c72ab)
+
+Fig 3.4 Average spend and number of transactions by gender. 
+
+The above table shows the average amount spent by customer gender. On average Male 
+customer spend more money per transaction when compared to female customer and the 
+overall average. However, female customers carry out more transactions and in essence spend 
+more money overall.  
+To understand the age distribution of the customers using credit card a box plot is shown in the 
+below figure. 
+
+![image](https://github.com/user-attachments/assets/5d5ec8d8-6a2a-4041-bcfa-5eb24b6634d1)
+
+In the above figure, it can be observed that on average the male customers are older than the 
+female customer. With the female customer on average being in their forties and the male 
+customers are in their fifties. Another trend that can be observed from the figure is that 
+fraudulent transactions tend to happen in both genders. This can be alluded to the fact that 
+older individuals are more susceptible to falling for scam as they are not technologically as 
+savvy as their younger counterparts. This insight os quite significant as stakeholders in the 
+customer experience team can use this detial and reach out to older customers especially, 
+giving them training on how to spot fraudulent transactions there by curbing the risk of them 
+falling victim to scam. 
+
+![image](https://github.com/user-attachments/assets/3909539a-76f2-4338-81c1-edaa6bebd20f)
+
+
+
+
