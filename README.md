@@ -119,6 +119,70 @@ falling victim to scam.
 
 ![image](https://github.com/user-attachments/assets/3909539a-76f2-4338-81c1-edaa6bebd20f)
 
+The above figure shows the frequency of legtimate transaction and the week day in which they 
+occur the most. Monday and Sunday are the days where most transaction takes place and this 
+is regardless of the gender making the transaction. This insight will enable stakeholders allocate 
+resources to begining of the week and ensure there are no failures.
+
+![image](https://github.com/user-attachments/assets/28a511f4-317b-4ba7-b290-b440e0a5a583)
+
+In contrast to fig 3.6 the above figure shows that fraudulent transactions for male customers 
+exceeds that of female customers from Wednesday to Saturday. However, fraudulent 
+transaction mostly take place from Sunday to Tuesday for female customer. The spike days for 
+fraudulent transactions are mostly Sundays and affect female customers the most. This insight 
+can be utilized to educate customers with what to look out for with regards to fraudulent 
+activities on their credit card. 
+
+![image](https://github.com/user-attachments/assets/02e4adfe-17a7-4263-8b33-df3e1c3afdc1)
+
+Fig 3.8 gives us insights into customer spending habits. We can see from the table that female 
+customer out spends the male customers in every category except Travel. The highest category 
+where customers spend their money is in Grocery point of sale i.e. where they physically swipe 
+their card at the counter. The least amount spent in a category was also in grocery, but the 
+payment method is online. It will make sense to market travel insurance to male customer and 
+market coupons to female customers who physically shop for Grocery items
+
+![image](https://github.com/user-attachments/assets/f25ce19b-75d4-49e5-bdcc-6dd55a64c949)
+
+Fig 3.9 is a bar graph that splits the total transaction amount into the different category which 
+customers carried out transaction. It can be seen that the bulk of the transaction was done in 
+the grocery category. While shopping online had the most fraudulent transactions followed by 
+miscellaneous shopping online. This is a good insight as stake holders can flag easily a 
+transaction to be fraudulent when it falls into these categories and a warning message alerting 
+the customer can be sent. 
+
+![image](https://github.com/user-attachments/assets/e384f337-dfc4-4d78-90aa-b2d4969bb91f)
+
+To understand the spending habit of customers the table in fig 3.10 was created, it shows that 
+personal care and online grocery shopping are the two least categories where customers spend 
+their money. On average, the least amount spend by a customer is on personal care but the 
+most amount spent on average falls within the travel and physical grocery category. When 
+compared to the median spent by customers the story slightly changes, miscellaneous and 
+shopping but in physical stores and online shopping categories were the least amount were 
+customers spend their money.
+
+## 3.2.2 Time Series Analysis 
+To understand the difference in characteristics of fraudulent transactions and non-fraudulent 
+transactions, a time series analysis of both kinds of transactions was carried out. This will 
+create a clear differentiation between what is considered to be fraudulent transactions and 
+what is not. 
+
+![image](https://github.com/user-attachments/assets/bdbc6890-d380-451f-a9c5-671e777c652d)
+
+The figure above shows fraudulent transactions plotted by the hour of the day in which the 
+transaction occurred. Instantly a theme can be seen, the scammers that carry out fraudulent 
+transactions do so in the late hours of the day into the early hours of the day. This kind of 
+information already gives a good red flag of when transactions can be halted if suspected of 
+fraudulent activities. 
+
+![image](https://github.com/user-attachments/assets/fdb17660-3db8-4515-a15c-182f537883af)
+
+
+
+
+
+
+
 
 
 
